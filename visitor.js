@@ -1,5 +1,5 @@
 var xhr = new XMLHttpRequest();
-xhr.open("GET", "https://api.countapi.xyz/hit/rezzaapr.my.id/visits");
+xhr.open("GET", "https://tegzxy.github.io/website-about-me/");
 xhr.responseType = "json";
 xhr.onload = function() {
   document.querySelector('.footer-title').innerHTML = 'Total Visitor : ' + this.response.value;
